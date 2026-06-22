@@ -42,10 +42,38 @@
     <!-- Add summary stats cards here: total students, average GPA, pass rate etc. -->
   </section>
 
-  <!-- ADD STUDENT FORM - Member: Umar Yaba Shehu -->
-  <section id="add-student" class="section">
-    <h2>Add Student</h2>
-    <!-- Add student form here -->
+<!-- ADD STUDENT FORM - Member: Umar Yaba Shehu -->
+<section id="add-student" class="section">
+  <h2>Add New Student</h2>
+  <form id="addStudentForm">
+    <div class="form-group">
+      <label for="studentName">Full Name</label>
+      <input type="text" id="studentName" 
+      placeholder="Enter student full name" required />
+    </div>
+    <div class="form-group">
+      <label for="studentId">Student ID</label>
+      <input type="text" id="studentId" 
+      placeholder="Enter student ID" required />
+    </div>
+    <div class="form-group">
+      <label for="department">Department</label>
+      <input type="text" id="department" 
+      placeholder="Enter department" required />
+    </div>
+    <div class="form-group">
+      <label for="level">Level</label>
+      <select id="level">
+        <option value="100">100 Level</option>
+        <option value="200">200 Level</option>
+        <option value="300">300 Level</option>
+        <option value="400">400 Level</option>
+      </select>
+    </div>
+    <button type="submit" class="btn-primary">
+      Add Student
+    </button>
+  </form>
   </section>
 
   <!-- ENTER SCORES FORM - Member: Saifullahi Munirat -->
